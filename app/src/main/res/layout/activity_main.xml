@@ -18,4 +18,20 @@
         app:cdv_textSize="40sp"
         tools:ignore="MissingConstraints" />
 
+    <com.app.demo.MyClockView
+        android:id="@+id/clockView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvCDView"
+        android:layout_marginTop="94dp"
+        app:dayTextBackground="@drawable/time_bg"
+        app:dayTextColor="#ffffff"
+        app:hourTextBackground="@drawable/time_bg"
+        app:hourTextColor="#ffffff"
+        app:minTextBackground="@drawable/time_bg"
+        app:minTextColor="#ffffff"
+        app:secTextBackground="@drawable/time_bg"
+        app:secTextColor="#ffffff" />
+
 </RelativeLayout>
