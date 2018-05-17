@@ -20,3 +20,5 @@ view.setOnTimeoutListener(new CountDownView.OnTimeOutListener() {
      }
 });
 view.cancel();//销毁倒计时
+
+![Image text](https://github.com/thkcheng/CountDownView/Untitled.gif)
